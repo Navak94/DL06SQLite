@@ -41,6 +41,6 @@ def FormatRowData():
 
 
 if __name__ == "__main__":
-    for x in range(850,4000): # for the DL06 this is the entire adress list 
+    for x in range(850,4000): # for the DL06's program this is the entire adress list 
         ReadData(x)
     FormatRowData()   
